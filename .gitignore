@@ -1,0 +1,21 @@
+# Ignore model files, caches, and heavy assets
+*.bin
+*.safetensors
+*.pt
+*.ckpt
+__pycache__/
+*.log
+*.tmp
+*.cache/
+*.ipynb_checkpoints/
+.DS_Store
+*.pdf
+
+# Ignore HuggingFace and Ollama downloads
+/.cache/
+/models/
+/hub/
+/ollama/
+
+# VSCode
+.vscode/
